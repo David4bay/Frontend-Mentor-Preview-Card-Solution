@@ -33,6 +33,10 @@ main.background article.card-body {
   border-radius: 10px;
 }
 main.background article.card-body section.card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding: 25px;
 }
 main.background article.card-body section.card-details figure.image-container {
@@ -43,11 +47,13 @@ main.background article.card-body section.card-details figure.image-container {
 main.background article.card-body section.card-details header.title {
   color: hsl(228deg, 12%, 48%);
   font-family: "Montserrat", sans-serif;
-  font-size: 8px;
-  font-weight: 100;
+  font-size: 13px;
+  font-weight: bold;
   letter-spacing: 5px;
   margin-bottom: 13px;
+  margin-left: -5px;
   margin-top: -3px;
+  transform: scale(0.9);
 }
 main.background article.card-body section.card-details h1.title-detail {
   color: hsl(212deg, 21%, 14%);
@@ -61,9 +67,7 @@ main.background article.card-body section.card-details h1.title-detail {
 p.section-detail {
   font-family: "Montserrat", sans-serif;
   color: hsl(228deg, 12%, 48%);
-  font-size: 14px;
-  width: 100%;
-  font-weight: normal;
+  font-size: 13px;
   line-height: 1.6;
   margin-bottom: 29px;
 }
@@ -85,6 +89,8 @@ h2.price::after {
   align-self: center;
   color: hsl(228deg, 12%, 48%);
   font-size: 11px;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 300;
   padding-left: 23px;
   text-decoration: line-through;
 }
@@ -98,7 +104,16 @@ img.perfume-image {
   border-top-right-radius: 10px;
 }
 
+img.cart-icon {
+  margin-left: -15px;
+}
+
 button.add-to-cart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
   font-family: "Montserrat", sans-serif;
   background-color: hsl(158deg, 36%, 37%);
   color: #fff;
@@ -106,6 +121,15 @@ button.add-to-cart {
   height: 50px;
   border: none;
   border-radius: 5px;
+}
+
+button.add-to-cart:hover {
+  background-color: hsl(158deg, 36%, 13%);
+  cursor: pointer;
+}
+
+span.btn-text {
+  padding-left: 15px;
 }
 
 footer.challenge-userinfo {
