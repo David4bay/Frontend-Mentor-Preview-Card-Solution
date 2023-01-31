@@ -22,6 +22,7 @@ main.background {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
   min-height: 100vh;
   background-color: hsl(30deg, 38%, 92%);
 }
@@ -134,17 +135,16 @@ span.btn-text {
 
 footer.challenge-userinfo {
   display: flex;
-  align-items: flex-end;
-  position: relative;
+  align-self: flex-end;
 }
 footer.challenge-userinfo div.attribution {
   background-color: #fff;
   text-align: center;
   width: 100%;
-  position: absolute;
   font-size: 11px;
   text-align: center;
 }
 footer.challenge-userinfo div.attribution a {
   color: hsl(228deg, 45%, 44%);
+  text-decoration: none;
 }/*# sourceMappingURL=styles.css.map */
