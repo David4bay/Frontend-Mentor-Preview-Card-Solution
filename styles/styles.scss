@@ -31,7 +31,7 @@ main.background {
         display: flex;
         background-color: #fff;
         flex-direction: column;
-        width: 346px;
+        min-width: 346px;
         border-radius: 10px;
 
         section.card-details {
@@ -41,9 +41,9 @@ main.background {
             align-items: flex-start;
             padding: 25px;
 
-            figure.image-container {
-                width: 346px;
-                height: 243px;
+            picture.image-container {
+                max-width: 346px;
+                max-height: 243px;
                 border-radius: 10px;
             }
 
@@ -105,8 +105,8 @@ h2.price::after {
 
 img.perfume-image {
     object-fit: contain;
-    width: 346px;
-    height: 243px;
+    min-width: 346px;
+    min-height: 243px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -156,4 +156,3 @@ footer.challenge-userinfo {
         text-decoration: none;
     }
 }
-
