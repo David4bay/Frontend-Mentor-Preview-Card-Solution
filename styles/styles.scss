@@ -27,49 +27,49 @@ main.background {
     min-height: 100vh;
     width: 100%;
     background-color: hsl(30, 38%, 92%);
+}
 
-    article.card-body {
-        display: flex;
-        flex-direction: column;
-        width: 346px;
-        border-radius: 10px;
-        background-color: #fff;
+article.card-body {
+    display: flex;
+    flex-direction: column;
+    width: 346px;
+    border-radius: 10px;
+    background-color: #fff;
+}
 
-        section.card-details {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-            padding: 25px;
+section.card-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 25px;
+}
 
-            figure.image-container {
-                width: 100%;
-                height: 100%;
-                border-radius: 10px;
-            }
+figure.image-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
 
-            header.title {
-                color: hsl(228, 12%, 48%);
-                font-family: 'Montserrat', sans-serif;
-                font-size: 13px;
-                font-weight: bold;
-                letter-spacing: 5px;
-                margin-bottom: 13px;
-                margin-left: -5px;
-                margin-top: -3px;
-                transform: scale(0.9);
-            }
+p.title {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-bottom: 13px;
+    margin-left: -5px;
+    margin-top: -3px;
+    transform: scale(0.9);
+}
 
-            h1.title-detail {
-                color: hsl(212, 21%, 14%);
-                font-family: 'Fraunces', serif;
-                font-size: 34px;
-                line-height: 1;
-                font-weight: 700;
-                margin-bottom: 17px;
-            }
-        }
-    }
+h1.title-detail {
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    font-size: 34px;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 17px;
 }
 
 p.section-detail {
