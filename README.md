@@ -42,7 +42,6 @@ I started with the HTML Markup and then used SASS(scss) for the styling, flexbox
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 
 ### What I learned
 
