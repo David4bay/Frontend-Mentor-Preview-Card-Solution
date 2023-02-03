@@ -13,7 +13,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [What I learned](#what-i-learned)
 - [Author](#author)
 
-
 ## Overview
 
 This is my solution to the Frontend Mentor Challenge.
@@ -31,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Repo Link](https://github.com/David4bay/Frontend-Mentor-Preview-Card-Solution)
 - Live Site URL: [Netlify Link](https://dreamy-llama-fcda3a.netlify.app)
 
 ## My process
