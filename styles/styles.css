@@ -18,7 +18,7 @@ html, body {
   background-color: hsl(30deg, 38%, 92%);
 }
 
-main.background {
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,26 +27,28 @@ main.background {
   width: 100%;
   background-color: hsl(30deg, 38%, 92%);
 }
-main.background article.card-body {
+
+article.card-body {
   display: flex;
   flex-direction: column;
   width: 346px;
   border-radius: 10px;
   background-color: #fff;
 }
-main.background article.card-body section.card-details {
+
+section.card-details {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 25px;
 }
-main.background article.card-body section.card-details figure.image-container {
-  width: 100%;
-  height: 100%;
+
+picture.image-container {
   border-radius: 10px;
 }
-main.background article.card-body section.card-details header.title {
+
+p.title {
   color: hsl(228deg, 12%, 48%);
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
@@ -57,7 +59,8 @@ main.background article.card-body section.card-details header.title {
   margin-top: -3px;
   transform: scale(0.9);
 }
-main.background article.card-body section.card-details h1.title-detail {
+
+h1.title-detail {
   color: hsl(212deg, 21%, 14%);
   font-family: "Fraunces", serif;
   font-size: 34px;
@@ -74,9 +77,8 @@ p.section-detail {
   margin-bottom: 29px;
 }
 
-h2.price {
+span.price {
   display: flex;
-  flex-direction: row;
   font-family: "Fraunces", sans-serif;
   color: hsl(158deg, 36%, 37%);
   font-size: 32px;
@@ -84,30 +86,37 @@ h2.price {
   margin-bottom: 20px;
 }
 
-h2.price::after {
-  content: "$169.99";
+span.old-price {
   display: flex;
-  flex-direction: row;
   align-self: center;
-  color: hsl(228deg, 12%, 48%);
-  font-size: 11px;
-  font-family: "Fraunces", sans-serif;
+  font-size: 16px;
   font-weight: 300;
-  padding-left: 23px;
+  margin-left: 22px;
+  color: hsl(228deg, 12%, 48%);
+  margin-left: 22px;
   text-decoration: line-through;
 }
 
-div.perfume-image {
-  background-image: url(/images/image-product-mobile.jpg);
-  background-size: contain;
+img.perfume-image {
+  -o-object-fit: contain;
+     object-fit: contain;
   width: 346px;
   height: 243px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
+img.perfume-desktop-image {
+  display: none;
+}
+
 img.cart-icon {
   margin-left: -15px;
+}
+
+p.price {
+  display: flex;
+  flex-direction: row;
 }
 
 button.add-to-cart {
@@ -159,7 +168,34 @@ footer.challenge-userinfo div.attribution a {
   article.card-body {
     display: flex;
     flex-direction: row;
-    max-width: 100%;
     width: 604px;
+    height: 455px;
+  }
+  picture.image-container {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  img.perfume-image {
+    display: none;
+  }
+  img.perfume-desktop-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  section.card-details {
+    display: flex;
+    flex-direction: column;
+    width: 302px;
+    height: 455px;
+  }
+  p.section-detail {
+    margin-top: 10px;
+  }
+  button.add-to-cart {
+    width: 239px;
+    height: 51px;
   }
 }/*# sourceMappingURL=styles.css.map */
