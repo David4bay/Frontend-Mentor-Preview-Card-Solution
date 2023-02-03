@@ -90,12 +90,12 @@ span.price {
 
 span.old-price {
     display: flex;
-    align-self: center;
+    align-items: center;
+    margin-top: -15px;
     font-size: 16px;
     font-weight: 300;
     margin-left: 22px;
     color: hsl(228, 12%, 48%);
-    margin-left: 22px;
     text-decoration: line-through;
 }
 
@@ -205,6 +205,16 @@ footer.challenge-userinfo {
 
     p.section-detail {
         margin-top: 10px;
+    }
+
+    p.price {
+        display: flex;
+        flex-direction: row;
+    }
+
+    span.old-price {
+        display: flex;
+        align-self: center;
     }
 
     button.add-to-cart {
