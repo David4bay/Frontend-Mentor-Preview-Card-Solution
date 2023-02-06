@@ -1,6 +1,6 @@
 # Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -52,4 +52,3 @@ I learnt a lot about specificity when I realized it could interfere with media q
 - Website - [My Medium](https://davidbayode.medium.com)
 - Frontend Mentor - [@David4bay](https://www.frontendmentor.io/profile/David4bay)
 - Twitter - [@Davidbay01](https://www.twitter.com/davidbay01)
-
